@@ -1,0 +1,18 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local data and generated datasets
+data/
+
+# Machine-specific files and secrets
+.DS_Store
+.claude/
+.codex/
+.env
+.env.*
+!.env.example
+*.log
